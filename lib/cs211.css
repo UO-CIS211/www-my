@@ -2,7 +2,7 @@
 Name: Transparentia  (taken from OSWD.org)
 Date: 2006-08-20
 Description: Simple, lightweight and slightly blue.
-Orignal Author: Viktor Persson 
+Original Author: Viktor Persson
 Modified 2009-12-17 by Michal Young for SCORE 2011
   Now hacked pretty far from the original design, but with 
   some bits and pieces still present
@@ -41,15 +41,15 @@ p,cite,code,ul {
 
 
 tt, kbd {
-    /* Adjustment seems necessary to ffit the surrounding text */ 
+    /* Adjustment seems necessary to fit the surrounding text */
     font-size: 1.2em; 
     }
 
 h1 {
 	font-size: 1.5em;
 	margin-bottom: 0.5ex;
-	margin-top: 0ex;
-	padding-top: 0ex;
+	margin-top: 0;
+	padding-top: 0;
 }
 code {
 	/* background: url(img/bgcode.gif); */ 
@@ -64,12 +64,11 @@ code {
 }
 
 blockquote {
-    background: light grey; 
+    background: lightgray;
     margin-left: 2em; 
 }
 
 cite {
-	background: url(img/quote.gif) no-repeat;
 	display: block;
 	padding-left: 28px;
 }
@@ -147,7 +146,6 @@ h1,h2,h3 {
 }
 .sidenav ul {
 	border-top: 1px solid #FAFAFA;
-	background: url(img/bgul.gif) repeat-x;
 	margin: 0;
 	padding: 0;
 }
@@ -190,7 +188,7 @@ h1,h2,h3 {
 }
 .descr {
         font-size: 1.0em; /* Same as <p> */
-	color: EEE;
+	color: #EEE;
 	border-style: dotted; 
 	border-width: 1px; 
 	border-color: #D0D0D0; 
@@ -266,8 +264,10 @@ h1,h2,h3 {
 .calendar	{ width:100%;border:1px dotted #449944;padding:2px;text-align:center; }
 .schedule   { width:100%;border:1px dotted #449944;padding:2px;text-align:left;
 	background-color: #CCCCCC; }
-.schedule td, .schedule th { text-align: left; font: bolder;
-	background-color: #e8f4e3; }
+.schedule td, .schedule th {
+	text-align: left;
+	font-weight: bolder;
+	background-color: #E8F4E3; }
 
 
 /* Other tables */

@@ -33,8 +33,8 @@ p,cite,code,ul {
 h1 {
 	font-size: 1.7em;
 	margin-bottom: 0.5ex;
-	margin-top: 0ex;
-	padding-top: 0ex;
+	margin-top: 0;
+	padding-top: 0;
 }
 code {
 	border: 2px dotted #CCC;
@@ -126,7 +126,6 @@ h1,h2,h3 {
 	margin-bottom: 6px;
 }
 .content li {
-	list-style: url(images/target-bullet.gif);
 	margin-left: 18px;
 }
 
