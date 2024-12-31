@@ -134,7 +134,7 @@ class. Many of them touch briefly on approaches that you may study in
 depth later, either in another class or on your own, to apply in your
 research or career. For example, you will have a brief exposure to the
 Python regular expression library. You will <em>not</em> become
-proficient in using regular expressions in CS 210, but some day later
+proficient in using regular expressions in CS 211, but some day later
 when you encounter a research or job project for which regular
 expressions are the appropriate tool, you may remember them
 enough to go teach yourself enough to apply them for the task at hand.
